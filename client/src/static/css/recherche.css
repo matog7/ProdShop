@@ -1,0 +1,51 @@
+.formRec{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding: 25px;
+    background-color: #f5f7f9;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #9999;
+    
+}
+
+.formRec .scroll_rec{
+    overflow-y: scroll;
+}
+
+.header{
+    color: #0a61c4;
+    font-style: italic;
+}
+
+.nom_prod_rec{
+    min-width: 200px;
+}
+
+.stock_prod{
+    max-width: 80px;
+}
+
+.nom_prod_rec, .prix_prod_rec, .stock_prod{
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #9999;
+    border-radius: 5px;
+    padding: 5px;
+    user-select: none;
+}
+
+.modif_prod{
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.modif{
+    width: 20px;
+    height: 20px;
+}
+
+.btModif{
+    cursor: pointer;
+}

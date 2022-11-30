@@ -1,0 +1,113 @@
+.enseigne h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.magasin{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    padding: 25px;
+    background-color: #f5f7f9;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #9999;
+}
+
+.enseigne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.enseigne p {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0a61c4;
+    -webkit-text-stroke: 1px black;
+    margin-left: 10px;
+}
+
+.logomag{
+    width: 64px;
+    height: 64px;
+}
+
+.filtre{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtre input[type=text]:focus {
+    background-color: #fcfcfc;
+    outline: 0.5px solid #0077ff;
+    border: 0.5px solid #0077ff;
+}
+
+.filtre input[type=text] {
+    width: 80%;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 0.5px solid #ccc;
+    border-radius: 15px;
+    transition: 200ms ease-out;
+}
+
+.filtre input[type=checkbox]:checked{
+    background-color: #0077ff;
+}
+
+.scroll_menu{
+    overflow-y: scroll;
+}
+
+.menu{
+    width: 100%;
+    text-align: left;
+}
+
+.categorie{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #0a61c4;
+}
+
+.nom_prod{
+    min-width: 220px;
+}
+
+.nom_prod, .prix_prod, .prix_prod_epuise{
+    background-color: #ffffff;
+    box-shadow: 0 0 2px #9999;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Pour afficher si le produit est en stock ou non */
+.prix_prod_epuise, .epuise{
+    color: #bbb;
+    font-style: italic;
+}
+
+.prix_prod:hover{
+    background-color: #f5f7f9;
+    color: #0a61c4;
+    transition: 200ms ease-out;
+}
+
+
+.prix_prod_epuise:hover{
+    background-color: #e8e8e8;
+    color: red;
+    transition: 200ms ease-out;
+}

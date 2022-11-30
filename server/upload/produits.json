@@ -1,0 +1,7 @@
+{
+    "data":[
+        {"categorie" : "1", "prix": 1.99, "stock": 0, "nom": "test20", "descript": null, "url":null},
+        {"categorie" : "1", "prix": 1.99, "stock": 0, "nom": "test22", "descript": null, "url":null},
+        {"categorie" : "1", "prix": 1.99, "stock": 0, "nom": "test21", "descript": null, "url": null}
+    ]
+}

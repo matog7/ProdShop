@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f5f7f9;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+nav li{ 
+    list-style: none;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    margin-left: 11.5em;
+}
+
+nav .logo-item {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: default;
+    user-select: none;
+
+}
+
+nav .logo-item p{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #0a61c4;
+    margin-top: 0.25em;
+    margin-left: 0.8em;
+    -webkit-text-stroke: 1px black;
+}
+
+nav a{
+    position: relative;
+    color: black;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+nav li:nth-last-child(1){
+    margin-bottom: 0.5em;
+}
+
+.icon{
+    position: relative;
+    margin-top: 2px;
+    top: 14px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-item{
+    position: relative;
+    font-size: 20px;
+    top: 10px;
+    margin-left: 2.25em;
+}
+
+.last{
+    margin-top: 31em;
+}
+
+nav .nav-item:hover{
+    width: 100%;
+    color: #0a61c4;
+    transition: 250ms ease-out;
+}
+
+nav:hover{
+    width: 320px;
+    transition: all 0.2s ease;
+}
