@@ -1,3 +1,5 @@
+# ProdShop
+
 Cette API est basée du tuto 'Penser en React' de ReactJs. Cette application est un "e-shop" avec l'affichage des produits et la possibilité de gérer ceux-ci.
 
 * Options supplémentaires : 
@@ -11,8 +13,7 @@ Cette API est basée du tuto 'Penser en React' de ReactJs. Cette application est
     7- Page de recherche de produit afin de connaître le stock et de modifier le produit si souhaité,
     8- Page de mise à jour produit (stock et prix) comme un fiche produit,
     
+-------------------------------------------
+API toujours en cours de développement.
 
-
-
-
-* Auteur : Matéo Auger
+# Auteur : Matéo Auger
