@@ -11,7 +11,7 @@ Cette API est basée du tuto 'Penser en React' de ReactJs. Cette application est
     * **5 -** Page d'upload de fichier json afin d'insérer les données dans le stock produits,  
     * **6 -** Modèle MVC (vue côté client et controller côté serveur, requêtes effectuées avec Axios),  
     * **7 -** Page de recherche de produit afin de connaître le stock et de modifier le produit si souhaité,  
-    * **8 -** Page de mise à jour produit (stock et prix) comme un fiche produit,  
+    * **8 -** Page de mise à jour produit (stock et prix) comme une fiche produit,  
     
 ----
 API toujours en cours de développement.  
