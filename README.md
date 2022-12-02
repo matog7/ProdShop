@@ -2,7 +2,7 @@
 
 Cette API est basée du tuto 'Penser en React' de ReactJs. Cette application est un "e-shop" avec l'affichage des produits et la possibilité de gérer ceux-ci.
 
-* Options : 
+* Options :  
     1- Interface avec CSS,  
     2- Menu déroulant pour l'affichage des produits :   
        Si la liste dépasse la taille de l'interface, un scroll est possible pour continuer à parcourir les produits,  
